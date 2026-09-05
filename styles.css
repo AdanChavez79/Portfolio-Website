@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 
 html {
     scroll-behavior: smooth;
@@ -6,18 +8,19 @@ html {
 }
 
 body {
-    font-family: "Sora", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background-color: #850E35;
-    color: #FCF5EE;
+    background-color: #F1E8B8;
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+
 }
 
 .header {
-    font-family: "JetBrains Mono", monospace;
-    font-weight: 200;
-    font-style: normal;
-    font-size: large;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: large;
+    font-size: x-large;
 
     position: sticky;
     top: 0;
@@ -49,17 +52,17 @@ nav ul {
 }
 
 nav a {
-    color: #FCF5EE;
+    color: white;
     text-decoration: none;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     display: block;
     transition: 0.5s ease;
 
 }
 
 nav a:hover {
-    background-color: #FCF5EE;
+    background-color: white;
     color: #000000;
     transform: scale(1.1);
 
@@ -88,21 +91,82 @@ nav li {
 }
 
 .home-content h1 {
-    font-weight: 800;
-    font-style: normal;
-    font-size: xx-large;
+    background-color: #000000;
+
+    margin-left: -100vw;
+    margin-right: -100vw;
+    padding-left: 100vw;
+    padding-right: 100vw;
+
+    font-family: "Jersey 10", sans-serif;
+    font-size: 130px;
+    text-align: center;
+    text-shadow: -5px 5px 0 #929292;
+    margin-bottom: 0px;
+
 }
 
 .home-content h2 {
     font-weight: 600;
-    font-style: italic;
     font-size: x-large;
+
+    background-color: #5D2E8C;
+    color: #CCFF66;
+
+    margin-left: -100vw;
+    margin-right: -100vw;
+    padding-left: 100vw;
+    padding-right: 100vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: -3px 3px 0 black;
+    margin-bottom: 0px;
+
+
+
+
 }
 
 .home-content p {
-    font-size: large;
-    font-weight: 400;
+    font-size: x-large;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.2;
+    text-align: center;
+
+
 }
+
+.home-content .card-body  {
+    padding: 8px;
+}
+
+.home-content .card{
+    border: 5px solid black;
+    border-radius: 16px;
+    background-color: #ffffff;
+    transition: 0.5s ease;
+    box-shadow: -6px 6px 0 black;
+
+}
+
+
+.home-summary {
+    background-color: #FF6666;
+    color: black;
+
+    margin-left: -100vw;
+    margin-right: -100vw;
+    padding-left: 100vw;
+    padding-right: 100vw;
+
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
 
 .title h3 {
     text-align: center;
@@ -154,16 +218,16 @@ nav li {
     background-color: #ffffff;
     padding: 12px;
     max-width: 60rem;
-    text-align: center; 
+    text-align: center;
     transition: 0.5s ease;
 
 }
 
-.skills-content ul{
+.skills-content ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    
+
 
 }
 
@@ -173,23 +237,23 @@ nav li {
     transition: 0.3s ease;
 }
 
-.skills-content img:hover{
+.skills-content img:hover {
     transform: scale(1.1);
 
 }
 
-.skills-content:hover{
+.skills-content:hover {
     transform: scale(1.02);
 }
 
-.contact-content{
+.contact-content {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
     gap: 2rem;
 }
 
-.contact-content img{
+.contact-content img {
     width: 75px;
     height: 75px;
     transition: 0.3s ease;
@@ -199,47 +263,61 @@ nav li {
     filter: invert(100%);
 }
 
-.contact-content img:hover{
+.contact-content img:hover {
     transform: scale(1.1);
 }
 
 @media (max-width:830px) {
-    .name{
+    .name {
         display: none;
     }
 
-    .header{
+    .header {
         justify-content: center;
         padding: 0 0;
     }
 
-    nav a{
+    nav a {
         padding: 20px;
     }
 
-    html{
+    html {
         scroll-padding-top: 67px;
     }
-    
-} 
+
+}
 
 @media (max-width:480px) {
 
-    nav a{
+    nav a {
         padding: 11px;
     }
 
-    .home-img img{
+    .home-img img {
         display: none;
     }
 
-    #home{
+    #home {
         gap: 0rem;
         display: block;
     }
 
-    html{
+    html {
         scroll-padding-top: 50px;
+    }
+
+}
+
+@media (max-width:770px) {
+    .home-img img {
+        display: none;
+    }
+    #home {
+        display: block;
+    }
+    .home-content .card{
+        box-shadow: 0px 6px 0 black;
+
     }
     
 }
