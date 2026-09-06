@@ -7,9 +7,11 @@
   <meta name="description" content="Portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <link rel="stylesheet" href="styles.css">
 
   <title>Adan Chavez's Website</title>
@@ -28,35 +30,36 @@
     </nav>
   </div>
 
-  <div class="container">
-    <div id="home">
+  <div class="colors">
+    <div class="container">
+      <div id="home">
 
-      <div class="home-img">
-        <img src="images/photo.png" alt="Its me, Adan Chavez">
-      </div>
+        <div class="home-img">
+          <img src="images/photo.png" alt="Its me, Adan Chavez">
+        </div>
 
-      <div class="home-content">
-        <h1>Adan Chavez</h1>
-        <h2>Web Developer / Game Developer</h2>
-        <div class="home-summary">
-          <div class="col-12">
-            <div class="card h-100">
-              <div class="card-body">
-                <p>I study Computer Science at the University of California, Irvine. Particularly interested in full
-                  stack web development and game development. Currently looking for research opportunities and
-                  internships, to start my early career as a software developer. Here are some projects I’ve worked on
-                  over the years, feel free to check them out and contact me.
-                </p>
+        <div class="home-content">
+          <h1>Adan Chavez</h1>
+          <h2>Web Developer / Game Developer</h2>
+          <div class="home-summary">
+            <div class="col-12">
+              <div class="card h-100">
+                <div class="card-body">
+                  <p>I study Computer Science at the University of California, Irvine. Particularly interested in full
+                    stack web development and game development. Currently looking for research opportunities and
+                    internships, to start my early career as a software developer. Here are some projects I’ve worked on
+                    over the years, feel free to check them out and contact me.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
 
       </div>
-
     </div>
   </div>
-
 
   <div class="title" id="projects">
     <h3>Projects</h3>
@@ -64,18 +67,30 @@
 
 
   <div class="container">
+
     <div class="row justify-content-center">
 
       <div class="col-12 col-md-6 col-lg-4 mb-3">
         <div class="card h-100">
           <div class="card-body">
             <h4 class="card-title">Portfolio Website - Front End Web Development</h4>
-            <p class="card-text">Developed a portfolio website utilizing HTML, CSS for styling and the Bootstrap
+            <p class="card-text">Developed a portfolio website, first by designing on Figma and then creating my website
+              utilizing HTML, CSS and the Bootstrap
               framework for further responsiveness, usable in both mobile and desktops.</p>
+            <div class="tag d-flex flex-wrap align-items-left gap-2">
+              <div class="circle">HTML</div>
+              <div class="circle">CSS</div>
+              <div class="circle">Bootstrap</div>
+            </div>
+
+
+
             <img src="images/web.png" class="card-img m-auto" alt="Screenshot of the portfolio website">
+
           </div>
           <a href="https://github.com/AdanChavez79/Portfolio-Website" class="btn mb-3 mx-3">Check it
             out</a>
+
         </div>
       </div>
 
@@ -114,8 +129,35 @@
             <h4 class="card-title">Underwatertale - Game Development</h4>
             <p class="card-text">A top-down narrative-driven adventure game that uses a mix of 3d and 2d assets
               in the Godot Engine, where I designed and developed two minigames and a bossfight.</p>
-            <img src="https://img.itch.zone/aW1nLzIxNTYzNzMzLmdpZg==/original/iCMN7p.gif" class="card-img m-auto"
-              alt="Project Image">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="card-img m-auto" src="https://img.itch.zone/aW1nLzIxNTYzNzMzLmdpZg==/original/iCMN7p.gif"
+                    alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img class="card-img m-auto"
+                    src="https://img.itch.zone/aW1hZ2UvMzE1MjQxNi8yMDIwOTI3OC5wbmc=/original/qWP%2FJt.png" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
           </div>
           <a href="https://24lemon.itch.io/underwatertale" class="btn mb-3 mx-3">Check it out</a>
         </div>
