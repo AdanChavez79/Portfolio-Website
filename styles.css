@@ -228,7 +228,7 @@ nav li {
     padding-right: 5px;
     
 }
-.tag{
+.tags{
     margin-bottom: 8px;
 }
 
@@ -310,6 +310,12 @@ nav li {
 
 .contact-content img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width:1000px) {
+    .home-img img {
+        display: none;
+    }
 }
 
 @media (max-width:830px) {
