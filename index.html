@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -42,15 +42,13 @@
           <h1>Adan Chavez</h1>
           <h2>Web Developer / Game Developer</h2>
           <div class="home-summary">
-            <div class="col-12">
-              <div class="card h-100">
-                <div class="card-body">
-                  <p>I study Computer Science at the University of California, Irvine. Particularly interested in full
-                    stack web development and game development. Currently looking for research opportunities and
-                    internships, to start my early career as a software developer. Here are some projects I’ve worked on
-                    over the years, feel free to check them out and contact me.
-                  </p>
-                </div>
+            <div class="card h-100">
+              <div class="card-body">
+                <p>I study Computer Science at the University of California, Irvine. Particularly interested in full
+                  stack web development and game development. Currently looking for research opportunities and
+                  internships, to start my early career as a software developer. Here are some projects I’ve worked on
+                  over the years, feel free to check them out and contact me.
+                </p>
               </div>
             </div>
           </div>
@@ -85,7 +83,7 @@
 
 
 
-            <img src="images/web.png" class="card-img m-auto" alt="Screenshot of the portfolio website">
+            <img src="images/portfolio.png" class="card-img m-auto" alt="Screenshot of the portfolio website">
 
           </div>
           <a href="https://github.com/AdanChavez79/Portfolio-Website" class="btn mb-3 mx-3">Check it
@@ -141,6 +139,60 @@
       <div class="col-12 col-md-6 col-lg-4 mb-3">
         <div class="card h-100">
           <div class="card-body">
+            <h4 class="card-title">BLLOB - Game Development</h4>
+            <p class="card-text">
+              Lead of team of 11 people to develop a 2D fast paced platformer.
+              Setup department meetings, assigned tasks, kept a production schedule.
+              Programmed various systems, player state machine for movement/attacks,
+              dynamic lighting & coding implementation of UI menus.
+            </p>
+            <div class="tags d-flex flex-wrap align-items-left gap-2">
+              <div class="circle">Godot</div>
+              <div class="circle">GDScript</div>
+              <div class="circle">Agile/Kanban</div>
+            </div>
+
+            <div id="carousel3" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="card-img m-auto"
+                    src="https://img.itch.zone/aW1nLzI3Njk4Nzk3LnBuZw==/original/k%2BHfe1.png" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img class="card-img m-auto" src="images/bllob2.png" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img class="card-img m-auto" src="images/bllob3.png" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img class="card-img m-auto" src="images/bllob.png" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                <i class="bi bi-caret-left-fill" aria-hidden="true"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                <i class="bi bi-caret-right-fill" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <a href="https://pretzelbyte.itch.io/bllob" class="btn mb-3 mx-3">Check it out</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
             <h4 class="card-title">Underwatertale - Game Development</h4>
             <p class="card-text">A top-down narrative-driven adventure game that uses a mix of 3d and 2d assets
               in the Godot Engine, where I designed and developed two minigames and a bossfight.</p>
@@ -149,12 +201,11 @@
               <div class="circle">GDScript</div>
               <div class="circle">Agile/Scrum</div>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carousel1" class="carousel slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
                   aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -166,14 +217,12 @@
                     src="https://img.itch.zone/aW1hZ2UvMzE1MjQxNi8yMDIwOTI3OC5wbmc=/original/qWP%2FJt.png" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                <i class="bi bi-caret-left-fill" aria-hidden="true"></i>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                <i class="bi bi-caret-right-fill" aria-hidden="true"></i>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
@@ -195,14 +244,38 @@
               <div class="circle">C#</div>
               <div class="circle">Agile/Scrum</div>
             </div>
-            <img src="https://img.itch.zone/aW1nLzI2MDQ0MTIwLnBuZw==/315x250%23c/Bs54zZ.png" class="card-img m-auto"
-              alt="Project Image">
+            <!-- <img src="https://img.itch.zone/aW1nLzI2MDQ0MTIwLnBuZw==/315x250%23c/Bs54zZ.png" class="card-img m-auto"
+              alt="Project Image"> -->
+            <div id="carousel2" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="card-img m-auto"
+                    src="https://img.itch.zone/aW1nLzI2MDQ0MTIwLnBuZw==/315x250%23c/Bs54zZ.png" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img class="card-img m-auto" src="images/badbeat.png" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <i class="bi bi-caret-left-fill" aria-hidden="true"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <i class="bi bi-caret-right-fill" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <a href="https://kingslayer360.itch.io/badbeat" class="btn mb-3 mx-3">Check it out</a>
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 mb-3">
+      <!-- <div class="col-12 col-md-6 col-lg-4 mb-3">
         <div class="card h-100">
           <div class="card-body">
             <h4 class="card-title">Blink Paralysis - Game Development</h4>
@@ -219,7 +292,9 @@
           <a href="https://tornadofirewave.itch.io/blink-paralysis" class="btn mb-3 mx-3">Check it
             out</a>
         </div>
-      </div>
+      </div> -->
+
+
 
     </div>
   </div>
@@ -299,9 +374,11 @@
     </a>
 
     <a href="https://github.com/AdanChavez79">
-      <img class="invert"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
         alt="GitHub logo">
+    </a>
+    <a href="https://pretzelbyte.itch.io/">
+      <img src="https://static.itch.io/images/app-icon.svg" alt="Itch.io logo">
     </a>
   </div>
 

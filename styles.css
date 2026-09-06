@@ -226,6 +226,7 @@ nav li {
     border-radius: 12px;
     padding-left: 5px;
     padding-right: 5px;
+    box-shadow: -3px 3px 0 black;
     
 }
 .tags{
@@ -236,6 +237,13 @@ nav li {
     aspect-ratio: 16 / 9;
     object-fit: contain;
     
+}
+
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: black;
+    font-size: 30px;
 }
 
 .btn {
