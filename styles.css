@@ -4,7 +4,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 77px;
+    scroll-padding-top: 60px;
     /* overflow-x: hidden; */
 
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .name {
-    padding: 20px;
+    padding: 15px;
     font-weight: 400;
     display: block;
     font-size: x-large;
@@ -62,7 +62,7 @@ nav a {
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     display: block;
     transition: 0.5s ease;
 
@@ -374,6 +374,13 @@ nav li {
 
         font-size: 100px;
     }
+    .home-summary p{
+
+        font-size: 20px;
+    } 
+    .home-content h2{
+        font-size: 20px;
+    }
 
 
 }
@@ -401,6 +408,31 @@ nav li {
 
         font-size: 70px;
     }
+
+
+}
+
+@media (max-height: 500px) {
+    nav a {
+        padding: 11px;
+    }
+    .name {
+        padding: 11px;
+    }
+
+    html {
+        scroll-padding-top: 50px;
+    }
+    .home-content h1 {
+
+        font-size: 70px;
+    }
+
+    .home-summary p{
+
+        font-size: 20px;
+    }
+
 
 
 }
